@@ -1,0 +1,97 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-navlink {
+  transition: 0.3s;
+  text-decoration: none;
+}
+.navigation-links-navlink:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.navigation-links-navlink1 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-navlink1:hover {
+  text-decoration: underline;
+}
+.navigation-links-navlink2 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-navlink2:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.navigation-links-navlink3 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-navlink3:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+.navigation-links-root-class-name8 {
+  top: var(--dl-space-space-threeunits);
+  right: var(--dl-space-space-sixunits);
+  position: absolute;
+  align-self: stretch;
+}
+
+.navigation-links-root-class-name10 {
+  top: var(--dl-space-space-threeunits);
+  right: var(--dl-space-space-sixunits);
+  margin: auto;
+  position: absolute;
+  align-self: stretch;
+}
+.navigation-links-root-class-name12 {
+  top: var(--dl-space-space-threeunits);
+  right: var(--dl-space-space-sixunits);
+  position: absolute;
+  align-self: stretch;
+}
+
+.navigation-links-root-class-name14 {
+  top: var(--dl-space-space-threeunits);
+  right: var(--dl-space-space-sixunits);
+  position: absolute;
+  align-self: stretch;
+}
+
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-navlink {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}

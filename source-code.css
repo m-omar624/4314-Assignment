@@ -205,23 +205,24 @@
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
-  padding-bottom: 42px;
+  padding-bottom: var(--dl-space-space-halfunit);
   background-size: cover;
   justify-content: center;
   background-image: url('https://activewizards.com//content/image-cache/blog/Apache_Flink_in_10_Minutes/apache-flink-in-10-minutes.bf2e2403.jpg');
   background-position: center;
 }
 .source-code-link {
-  left: 760px;
+  left: 0px;
   color: var(--dl-color-gray-black);
+  right: 0px;
   width: 402px;
-  bottom: 0px;
+  bottom: var(--dl-space-space-oneandhalfunits);
   height: 70px;
+  margin: auto;
   position: absolute;
   font-size: 24px;
   transition: 0.3s;
   border-radius: 24px;
-  margin-bottom: var(--dl-space-space-twounits);
   text-decoration: none;
   background-color: #bc89ec;
 }
